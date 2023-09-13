@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.scoreBox {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.tetrisBox {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 800px;
+    outline: 1px solid black;
+    margin: auto;
+}
+
+.blockContainer {
+    display: flex;
+}
+
+.block {
+    outline: 1px solid black;
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.3) inset;
+-webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.3) inset;
+-moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.3) inset;
+}
+
+.tree {
+    background: #00b13b;
+}
+.square {
+    background: #60ffd7;
+}
+.L {
+    background: #fff23f;
+}
+
+.J {
+    background: #ff5050;
+}
+
+.S {
+    background: #508dff;
+}
+
+.Z {
+    background: #b96aee;
+}
+
+.I {
+    background-color: #1c1a91;
+}
